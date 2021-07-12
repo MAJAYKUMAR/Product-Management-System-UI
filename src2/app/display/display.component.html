@@ -1,0 +1,20 @@
+<p>display works!</p>
+
+
+<table class="table table-dark  col-md-5">
+
+    <tr> 
+    <th>PID</th>
+    <th>PNAME</th>
+    <th>PRICE</th> </tr>
+
+    <tr *ngFor="let product of productList">
+
+            <td>{{product.pid}}</td>
+            <td>{{product.pname}}</td>
+            <td>{{product.price}}</td>
+
+    </tr>
+
+
+    </table>

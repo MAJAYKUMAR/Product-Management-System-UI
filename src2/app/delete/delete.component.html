@@ -1,0 +1,16 @@
+<p>delete works!</p>
+
+
+
+<form   class="col-md-4 "  #deleteform="ngForm"   (ngSubmit)="deleteProduct(deleteform.value)"   >
+    <div class="form-group">
+      <label>PID</label>
+      <input type="text" class="form-control" name="pid"  ngModel placeholder="Enter PID">
+      
+    </div>
+
+
+
+    <button type="submit" class="btn btn-danger">Delete</button>
+  </form>
+  
